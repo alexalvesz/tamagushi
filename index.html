@@ -5,13 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tamagushi</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilo.css" 
-    </head>
-    <body>
-    </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZU
+    <title>Tamagoshi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="center bg-dark light">
+        <h2>Tamagoshi</h2>
+    </header>
+    <section>
+        <div class="container clearfix">
+            <div class="col-6 center">
+                <img src="img/t01.gif" alt="" id="foto" class="full">
+            </div>
+            <div class="col-6">
+                <div class="">
+                    <p id="tempo"></p>
+                    <p id="saude"></p>
+                    <p id="fome"></p>
+                    <p id="humor"> </p>
+                </div>
+                <div class="">
+                    <button onclick="comer(10)"> Comer </button>
+                    <button onclick="remedio(10)"> Remédio </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="center bg-dark light">
+        <h6>Feito por Fabiano Moreira</h6>
+    </footer>
+    <script src="js/tamagoshi.js"></script>
+</body>
+
 </html>
