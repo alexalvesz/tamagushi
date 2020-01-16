@@ -1,5 +1,0 @@
-git init
-git add .
-
-em casa uma unica vez: git config --global user.name "Gustavo"
-git config --global user.email "gustavo@gustavohenrique.net"
